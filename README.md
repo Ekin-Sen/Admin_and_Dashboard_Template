@@ -1,2 +1,2 @@
-# Admin_and_Dashboard_Template
-An admin and dashboard template designed using bootstrap 5
+# Admin and Dashboard_ emplate
+* An admin and dashboard template designed using bootstrap 5
