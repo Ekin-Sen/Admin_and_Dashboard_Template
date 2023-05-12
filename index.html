@@ -12,7 +12,7 @@
       <div class="row">
         <!--SIDEBAR START-->
         <div class="col-sm-2 col-lg-3">
-          <div class="d-flex flex-column flex-shrink-0 p-3 aside_bg" >
+          <div class="d-flex flex-column flex-shrink-0 py-3 px-3 px-sm-0 p-lg-3 align-items-sm-center align-items-lg-stretch aside_bg" >
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
               <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" viewBox="0 0 448 512"><path d="M364.2 83.8c-24.4-24.4-64-24.4-88.4 0l-184 184c-42.1 42.1-42.1 110.3 0 152.4s110.3 42.1 152.4 0l152-152c10.9-10.9 28.7-10.9 39.6 0s10.9 28.7 0 39.6l-152 152c-64 64-167.6 64-231.6 0s-64-167.6 0-231.6l184-184c46.3-46.3 121.3-46.3 167.6 0s46.3 121.3 0 167.6l-176 176c-28.6 28.6-75 28.6-103.6 0s-28.6-75 0-103.6l144-144c10.9-10.9 28.7-10.9 39.6 0s10.9 28.7 0 39.6l-144 144c-6.7 6.7-6.7 17.7 0 24.4s17.7 6.7 24.4 0l176-176c24.4-24.4 24.4-64 0-88.4z"/></svg>
               <span class="fs-4 d-sm-none d-lg-inline-block"><strong>XYZ</strong></span>
@@ -64,7 +64,7 @@
               </li>
             </ul>
             <hr>
-            <div class="dropdown">
+            <div class="dropdown d-sm-none d-lg-inline-block">
               <a href="#" class="d-flex align-items-center link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                 <img src="https://picsum.photos/id/64/100/100" alt="" width="32" height="32" class="rounded-circle me-2">
                 <span class="d-sm-none d-lg-inline-block">My Account</span>
@@ -76,6 +76,11 @@
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="#">Sign out</a></li>
               </ul>
+            </div>
+            <div class="d-none d-sm-inline-block d-lg-none">
+              <a href="#" class=" link-body-emphasis">
+                <img src="https://picsum.photos/id/64/100/100" alt="" width="32" height="32" class="rounded-circle me-2">
+              </a>              
             </div>
           </div>
         </div>
