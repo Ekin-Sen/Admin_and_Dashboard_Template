@@ -1,3 +1,4 @@
-.aside_bg {
-    background-color: #FFE5D8;
+.full-screen,
+.full-screen > * {
+    min-height: 100%;
 }
