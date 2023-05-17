@@ -2,3 +2,15 @@
 .full-screen > * {
     min-height: 100%;
 }
+
+.cbg1 {
+    background-color: rgb(255, 222, 227);
+}
+
+.cbg2 {
+    background-color: rgb(212, 251, 228);
+}
+
+.cbg3 {
+    background-color: rgb(243, 229, 254);
+}
