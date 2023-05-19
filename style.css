@@ -4,15 +4,27 @@
 }
 
 .cbg1 {
-    background-color: rgb(255, 222, 227);
+    background-color:#FFDEE3;
 }
 
 .cbg2 {
-    background-color: rgb(212, 251, 228);
+    background-color:#D4FBE4;
 }
 
 .cbg3 {
-    background-color: rgb(243, 229, 254);
+    background-color:#F3E5FE;
+}
+
+.cbg4 {
+    background-color:#EEB462;
+}
+
+.cbg5 {
+    background-color:#DC8665;
+}
+
+.cbg6 {
+    background-color:#CD7672;
 }
 
 .fsize {
